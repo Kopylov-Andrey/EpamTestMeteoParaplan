@@ -16,15 +16,8 @@ namespace EpamTestMeteoParaplan
         [TestInitialize]
         public void SetUpTest()
         {
-            ChromeOptions options = new ChromeOptions();
-            options.AddArguments("test-type");
-            options.AddArgument("--disable-popup-blocking");
-            options.AddArgument("--ignore-certificate-errors");
-            driver = new ChromeDriver(@"C:\Users\HP\Downloads\chromedriver_win32\chromedriver.exe", options);
-
-
-            //var servce = ChromeDriverService.CreateDefaultService();
-            //this.driver = new ChromeDriver(servce);
+            var servce = ChromeDriverService.CreateDefaultService();
+            this.driver = new ChromeDriver(servce);
             this.baseUrl = "https://meteo.paraplan.net/";
 
             this.driver.Navigate().GoToUrl(this.baseUrl);
@@ -36,6 +29,8 @@ namespace EpamTestMeteoParaplan
         {
             this.driver.FindElement(By.XPath("/html/body/div[3]/div/nav/div[2]/div[1]/a")).Click();
             this.driver.FindElement(By.XPath("//span[text()= 'Five-day weather forecast'] "));
+
+            this.driver.FindElement(By.XPath("/html/body/div[3]/div/div[2]/div[2]/a"));
         }
 
 
