@@ -12,7 +12,9 @@
           "MSTest.TestFramework": "2.2.8",
           "Microsoft.NET.Test.Sdk": "17.0.0",
           "Selenium.WebDriver": "4.1.0",
+          "Selenium.WebDriver.ChromeDriver": "97.0.4692.7100",
           "Selenium.WebDriver.GeckoDriver": "0.30.0.1",
+          "WebDriver.ChromeDriver.win32": "96.0.4664.45",
           "coverlet.collector": "3.1.0"
         },
         "runtime": {
@@ -435,6 +437,7 @@
           }
         }
       },
+      "Selenium.WebDriver.ChromeDriver/97.0.4692.7100": {},
       "Selenium.WebDriver.GeckoDriver/0.30.0.1": {},
       "System.AppContext/4.3.0": {
         "dependencies": {
@@ -1020,7 +1023,8 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
-      }
+      },
+      "WebDriver.ChromeDriver.win32/96.0.4664.45": {}
     }
   },
   "libraries": {
@@ -1238,6 +1242,13 @@
       "sha512": "sha512-d4smisz4a/wJCM2TzkKTl+BLfvZUTvaobhKElDfCVZlvY8ThsC8VAoBNWTlg1H/GGzIP//yVGko/W0FILTgkYA==",
       "path": "selenium.webdriver/4.1.0",
       "hashPath": "selenium.webdriver.4.1.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/97.0.4692.7100": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/5wf4Rv9vTmab2qWo3enuYLoumOyVb6+rO0f2hbym+MQzDGYb7GpadhWk/jgNtUf6eFvsqL90TyzXrcCfOhCyQ==",
+      "path": "selenium.webdriver.chromedriver/97.0.4692.7100",
+      "hashPath": "selenium.webdriver.chromedriver.97.0.4692.7100.nupkg.sha512"
     },
     "Selenium.WebDriver.GeckoDriver/0.30.0.1": {
       "type": "package",
@@ -1637,6 +1648,13 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "WebDriver.ChromeDriver.win32/96.0.4664.45": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QguPqYKNPcePskgUaKB5+BN2m+pKN0Ml46jwggoncisK6nasBQdA7Zbo7tafhsomm4U9zR4cMavmVtRHUGsMJQ==",
+      "path": "webdriver.chromedriver.win32/96.0.4664.45",
+      "hashPath": "webdriver.chromedriver.win32.96.0.4664.45.nupkg.sha512"
     }
   }
 }

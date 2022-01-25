@@ -16,6 +16,8 @@ namespace EpamTestMeteoParaplan
         [TestInitialize]
         public void SetUpTest()
         {
+           
+
             var servce = ChromeDriverService.CreateDefaultService();
             this.driver = new ChromeDriver(servce);
             this.baseUrl = "https://meteo.paraplan.net/";
@@ -27,10 +29,13 @@ namespace EpamTestMeteoParaplan
         [TestMethod]
         public void TestMeteoFiveDays()
         {
-            this.driver.FindElement(By.XPath("/html/body/div[3]/div/nav/div[2]/div[1]/a")).Click();
+            this.driver.FindElement(By.XPath("/html/body/div[2]/div/div[3]/div[2]/a[text()= 'English']")).Click();
+
+            this.driver.FindElement(By.XPath("/html/body/div[3]/div/nav/div[2]/div[1]/a[text()= 'Five-day weather forecast']")).Click();
+
             this.driver.FindElement(By.XPath("//span[text()= 'Five-day weather forecast'] "));
 
-            this.driver.FindElement(By.XPath("/html/body/div[3]/div/div[2]/div[2]/a"));
+            this.driver.FindElement(By.XPath("/html/body/div[3]/div/div[2]/div[2]/a[text()= 'Skew-T log-P diagram']"));
         }
 
 

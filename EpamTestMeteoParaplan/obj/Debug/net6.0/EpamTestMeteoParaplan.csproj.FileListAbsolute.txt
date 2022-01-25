@@ -1,5 +1,5 @@
-D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\bin\Debug\net6.0\testhost.dll
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\bin\Debug\net6.0\testhost.exe
+D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\bin\Debug\net6.0\testhost.dll
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
@@ -87,6 +87,7 @@ D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\bin\Debug\net6.0\zh-Ha
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\obj\Debug\net6.0\EpamTestMeteoParaplan.csproj.AssemblyReference.cache
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\obj\Debug\net6.0\EpamTestMeteoParaplan.GeneratedMSBuildEditorConfig.editorconfig
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\obj\Debug\net6.0\EpamTestMeteoParaplan.AssemblyInfoInputs.cache
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\obj\Debug\net6.0\EpamTestMeteoParaplan.AssemblyInfo.cs
@@ -96,4 +97,3 @@ D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\obj\Debug\net6.0\EpamT
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\obj\Debug\net6.0\ref\EpamTestMeteoParaplan.dll
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\obj\Debug\net6.0\EpamTestMeteoParaplan.pdb
 D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\obj\Debug\net6.0\EpamTestMeteoParaplan.genruntimeconfig.cache
-D:\STUDY\EPAM\EpamTestMeteoParaplan\EpamTestMeteoParaplan\obj\Debug\net6.0\EpamTestMeteoParaplan.csproj.AssemblyReference.cache
